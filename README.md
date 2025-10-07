@@ -35,8 +35,8 @@ MVP en JavaScript + Bootstrap 5 que usa archivos JSON (sin base de datos) para c
 - Nicholas Patrick | Rol: Administrador | User: nicholas@cleanpoint.co" | Pass: admin123
 - Cordell Edwards| Rol: Seller | User: cordell@cleanpoint.co"| Pass: seller123
 - Derrick Spencer | Rol: Support | User: derrick@cleanpoint.co | Pass: support123
-- Larissa Burton | Rol: Seller | User: larissa@cleanpoint.co | Pass: admin123
-- Pedro Picapiedra| Rol: Seller | User: pedro@cleanpoint.co | Pass: admin123
+- Larissa Burton | Rol: Seller | User: larissa@cleanpoint.co | Pass: seller123
+- Pedro Picapiedra| Rol: Seller | User: pedro@cleanpoint.co | Pass: seller123
 
 # Look & Feel
 - Paleta morada con degradado (#5A33D6 → #6A49E4).
