@@ -49,11 +49,14 @@ header{ background:var(--cp-card); box-shadow: var(--shadow); }
   position:fixed;
   top:16px;
   left:16px;
-  width:7%;
+  width:13%;
   height:auto;
   z-index:1050;
 }
 
+.fw-bold {
+  margin-top: 60px;
+}
 
 
 @media(min-width:992px){
