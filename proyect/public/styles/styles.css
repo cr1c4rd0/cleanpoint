@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    padding: 30px 40px;
+}
+
+.logo {
+    height: 40px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 0 80px;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.text-box h2 {
+    font-size: 2rem;
+    color: #111;
+}
+
+.text-box h1 {
+    font-size: 2.5rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.text-box p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.text-box a {
+    color: #5B5BEA;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.illustration {
+    width: 300px;
+    margin-top: 40px;
+}
+
+.right-section {
+    width: 40%;
+    padding: 40px 60px;
+    border-radius: 16px;
+}
+
+.right-section h2 {
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background: linear-gradient(to right, #7b61ff, #5b5bea);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.9;
+}
+
+.forgot {
+    font-size: 0.9rem;
+    text-align: right;
+    text-decoration: none;
+    color: #5B5BEA;
+}
+
+.divider {
+    text-align: center;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.google {
+    background-color: #db4a39;
+    color: white;
+}
